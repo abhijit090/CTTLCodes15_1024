@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.ctt.qa.testcases.HomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="VerifyclickOnuserButton"/>
+          <include name="titleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ctt.qa.testcases.HomePageTest -->
+      <class name="com.ctt.qa.testcases.LoginTest">
+        <methods>
+          <include name="loginData"/>
+          <include name="closeBrowser"/>
+          <include name="titleTest"/>
+          <include name="setup"/>
+          <include name="testUserName"/>
+        </methods>
+      </class> <!-- com.ctt.qa.testcases.LoginTest -->
+      <class name="AutomationProject.AutomationProject.TestMavenProject2">
+        <methods>
+          <include name="Testdata"/>
+          <include name="cttProject"/>
+          <include name="appLaunch"/>
+          <include name="closeBrowser"/>
+          <include name="logincredentials"/>
+        </methods>
+      </class> <!-- AutomationProject.AutomationProject.TestMavenProject2 -->
+      <class name="AutomationProject.AutomationProject.TestMavenProject">
+        <methods>
+          <include name="DataTest2"/>
+          <include name="DataTest1"/>
+          <include name="DataTest4"/>
+          <include name="DataTest3"/>
+        </methods>
+      </class> <!-- AutomationProject.AutomationProject.TestMavenProject -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

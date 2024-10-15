@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="CTT_STG.Single_SKU_SrchDB_AWR">
+        <methods>
+          <include name="Verify_Through_the_database"/>
+          <include name="Verify_Through_the_database_AI_Mapping"/>
+          <include name="Verify_Through_the_database_Update"/>
+          <include name="To_Verify_that_Data_Not_Available_In_AWR_Database"/>
+          <include name="closeBrowser"/>
+          <include name="Verify_Through_AWR_and_Update_AWR_Value"/>
+          <include name="Verify_Through_AWR"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- CTT_STG.Single_SKU_SrchDB_AWR -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

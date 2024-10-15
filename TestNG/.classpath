@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3.jar" sourcepath="C:/Users/Abhijit.Jadhav/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Abhijit.Jadhav/.m2/repository/io/github/bonigarcia/webdrivermanager/5.6.3/webdrivermanager-5.6.3-javadoc.jar!/"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.github.bonigarcia"/>
+			<attribute name="maven.artifactId" value="webdrivermanager"/>
+			<attribute name="maven.version" value="5.6.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/auto-service-annotations-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/auto-service-annotations-1.1.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/byte-buddy-1.14.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/byte-buddy-1.14.15-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/checker-qual-3.42.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/checker-qual-3.42.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/commons-exec-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/commons-exec-1.4.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/error_prone_annotations-2.26.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/error_prone_annotations-2.26.1-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/failsafe-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/failsafe-3.3.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/failureaccess-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/failureaccess-1.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/guava-33.2.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/guava-33.2.0-jre-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/j2objc-annotations-3.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/j2objc-annotations-3.0.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/jsr305-3.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/jsr305-3.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-api-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-api-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-api-incubator-1.38.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-api-incubator-1.38.0-alpha-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-context-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-context-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-exporter-logging-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-exporter-logging-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-common-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-common-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-extension-autoconfigure-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-logs-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-logs-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-metrics-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-metrics-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-trace-1.38.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-sdk-trace-1.38.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-semconv-1.25.0-alpha.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/opentelemetry-semconv-1.25.0-alpha-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-api-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-api-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-chrome-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-chrome-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-chromium-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-chromium-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v85-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v85-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v123-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v123-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v124-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v124-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v125-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-devtools-v125-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-edge-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-edge-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-firefox-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-firefox-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-http-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-http-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-ie-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-ie-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-java-4.21.0 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-java-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-java-4.21.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-java-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-json-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-json-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-manager-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-manager-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-os-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-os-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-remote-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-remote-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-safari-driver-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-safari-driver-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-server-4.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-support-4.21.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Selenium JarFiles/selenium-support-4.21.0-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Abhijit.Jadhav/Downloads/testng-7.10.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Single_SKU_SrchDB_AWR.java&apos; to &apos;TestNG/src/CTT_STG&apos;&#x0D;&#x0A;- Original project: &apos;TestNG&apos;&#x0D;&#x0A;- Destination element: &apos;TestNG/src/CTT_STG&apos;&#x0D;&#x0A;- Original element: &apos;CTT_Demo1.Single_SKU_SrchDB_AWR.java&apos;" description="Copy compilation unit" destination="/src&lt;CTT_STG" element1="/src&lt;CTT_Demo1{Single_SKU_SrchDB_AWR.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1725175258946" units="1" version="1.0"/>
+</session>

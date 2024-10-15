@@ -1,0 +1,5 @@
+com\ctt\qa\pages\LoginPage.class
+com\ctt\qa\base\TestBase.class
+com\ctt\qa\pages\HomePage.class
+com\ctt\qa\util\TestUtil.class
+AutomationProject\AutomationProject\App.class

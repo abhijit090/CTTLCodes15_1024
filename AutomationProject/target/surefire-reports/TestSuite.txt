@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 16, Time elapsed: 16.528 s <<< FAILURE! - in TestSuite
+setup(com.ctt.qa.testcases.HomePageTest)  Time elapsed: 15.945 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "browserName" is null
+	at com.ctt.qa.testcases.HomePageTest.setup(HomePageTest.java:24)
+

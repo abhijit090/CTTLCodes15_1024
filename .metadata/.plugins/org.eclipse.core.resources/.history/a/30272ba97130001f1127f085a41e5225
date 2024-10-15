@@ -1,0 +1,201 @@
+package CTT_Demo;
+
+import java.awt.Rectangle;
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.WheelInput.ScrollOrigin;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Product_family {
+
+	private static final String ElementName = null;
+	private static String iframe;
+	public static String screenShotSubFoderName;
+	public static WebDriver driver;
+	WebDriverWait wait;
+	private By with;
+	private WebElement descriptionField;
+	static WebDriver browser;
+
+	@BeforeSuite
+
+	public void appLaunch() throws InterruptedException {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Abhijit.Jadhav\\Downloads\\chromedriver-win64\\chromedriver.exe");
+		driver = new ChromeDriver(options);
+
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+//		driver.get("https://development.d36z6oo50ky8dh.amplifyapp.com/login");
+		Thread.sleep(2000);
+		//Mark  Test  
+
+	}
+
+
+	@Test(priority = 1)
+	public void CTT_Login_Page_Displayed_And_Enters_Login_Details() throws InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(50));
+		
+		driver.get("https://staging.d36z6oo50ky8dh.amplifyapp.com/login");
+		Thread.sleep(1000);
+        // Wait until the title matches the expected title
+        wait.until(ExpectedConditions.titleIs("Content Transformation Tool"));
+
+        // Get the title of the page
+        String title = driver.getTitle();
+
+        // Verify that the title matches the expected title
+        Assert.assertEquals(title, "Content Transformation Tool");
+
+        // Print the title
+        System.out.println(title);
+		
+		// Find and fill the username field
+        WebElement usernameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
+        usernameField.sendKeys("aarushwagh133@gmail.com");
+
+        // Find and fill the password field
+        WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#password")));
+        passwordField.sendKeys("hiFHM4As");
+
+        // Find and click the login button
+        WebElement loginButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button[type='button']")));
+        loginButton.click();
+        Thread.sleep(6000);
+    }
+	@Test(priority = 2)
+	public void Verify_Login_Person_Name() throws InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(200));
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//div[@class='MuiTypography-root MuiTypography-subtitle2 MuiTypography-noWrap css-1dqgwp4'])[1]")));
+		String displayName = element.getText();
+		System.out.println("Login Person Name: " + displayName);
+		Thread.sleep(1000);
+	}
+
+	@Test(priority = 3)
+	public void Open_Specific_Project_and_set_the_fix_Localities() throws InterruptedException {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(200));
+		// Locate the parent div class that contains all the project names
+		WebElement parentDiv11t = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='panel1bh-header']")));
+		Thread.sleep(1000);
+
+		// Open specific
+		WebElement testAb = wait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[contains(text(),'Productfamily')])[1]")));
+		testAb.click();
+		Thread.sleep(8000);
+		// Inside Iframe
+		WebElement iframe1 = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//iframe[@id='iframeD3'])[1]")));
+		// Switch to the iframe
+		driver.switchTo().frame(iframe1);
+		Thread.sleep(5000);
+		//Click on the parent node 
+		WebElement nodeTextElement1 = wait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), 'Bed Canopies')]")));
+		nodeTextElement1.click();
+		Thread.sleep(4000);
+		// Click on the Pivotree Logo
+		WebElement nodeTextElementagq = wait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='menucontainer']/div[1]")));
+		nodeTextElementagq.click();
+		Thread.sleep(2000);
+		// Right click on the root node
+		WebElement nodeTextElementag1 = driver
+				.findElement(By.xpath("(//*[contains(text(),'Bedding, Pillows and Blankets 2024530 155805 2024610 180908')])[1]"));
+		Actions actions1g1 = new Actions(driver);
+		actions1g1.contextClick(nodeTextElementag1).perform();
+		Thread.sleep(2000);
+		// Click on the Fix Localities...
+		WebElement nodeTextElement= wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ul/li[contains(text(), 'Fix Localities...')]")));
+		nodeTextElement.click();
+		Thread.sleep(2000);
+//		//Click on the parent node 
+//		WebElement nodeTextElement1 = wait
+//				.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), 'Controls & Electrical Components')]")));
+//		nodeTextElement1.click();
+//		Thread.sleep(2000);
+		//shfit the node from up & left side
+		WebElement nodeText1a = driver.findElement(By.xpath("(//*[contains(text(), 'Bedding, Pillows and Blankets 2024530 155805 2024610 180908')])[1]"));
+		Thread.sleep(1000);
+		WebElement nodeText2 = driver.findElement(By.xpath("//*[@class='project-version']"));
+		Actions actions = new Actions(driver);
+		actions.moveToElement(nodeText1a, 20, 60).clickAndHold().perform();
+		Thread.sleep(1000);
+		actions.dragAndDropBy(nodeText1a, -350, 50).perform();
+		Thread.sleep(1000);
+		Thread.sleep(4000);
+		//right click on the Bed Canopies
+		// Right click on the root node
+		WebElement badcan = driver.findElement(
+				By.xpath("(//*[contains(text(),'Bed Canopies')])[1]"));
+		Actions actions1 = new Actions(driver);
+		actions1.contextClick(badcan).perform();
+		Thread.sleep(2000);
+		//Slect the the product families
+		// click on child name
+		WebElement nodeText = driver.findElement(By.xpath("//ul/li[contains(text(), 'Add / Create')]"));
+		Actions actions1gg = new Actions(driver);
+		actions1gg.moveToElement(nodeText).perform();
+		Thread.sleep(2000);
+		// Delete and Delet sku from the root node
+		driver.findElement(By.xpath("//ul/li[contains(text(), 'Create Families...')]")).click();
+		Thread.sleep(1000);
+		//Verify the Product family window open or not
+		WebElement family_window = wait
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id='modalTitle' and contains(text(), 'Create Families')][1]")));
+		family_window.getTagName();
+		System.out.println("Create Families Window open Name:" + family_window);
+		Thread.sleep(1000);
+		
+		
+		
+		
+		// delet confirm
+		WebElement okclick1 = wait
+				.until(ExpectedConditions.elementToBeClickable(By.xpath("(//button[contains(text(),'OK')])[1]")));
+		okclick1.click();
+		Thread.sleep(1500);
+		
+
+	}
+
+	
+	@AfterSuite
+	public void closeBrowser() {
+		// Close the WebDriver instance
+//		driver.quit();
+	}
+}
+
+
+
+
+ 

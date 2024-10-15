@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Demo.ctt_Cut_SKUS">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Verify_Login_Person_Name"/>
+          <include name="Verify_through_the_AG_grid_Cut_ALL_SKU"/>
+          <include name="verify_The_SKU_List_Page_Title_And_Cut_The_SingleSKU"/>
+          <include name="Cut_the_All_SKU_From_The_Leaf_Node"/>
+          <include name="Check_The_SKUList_Page_open_Or_Not"/>
+          <include name="appLaunch"/>
+          <include name="Verify_through_the_AG_grid_Cut_Single_SKU"/>
+        </methods>
+      </class> <!-- Demo.ctt_Cut_SKUS -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .status {
+            font-weight: bold;
+            color: {% if report_data['status'] == 'Pass' %}green{% else %}red{% endif %};
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Report: Login Test</h1>
+    <p><strong>Page Title:</strong> {{ report_data['page_title'] }}</p>
+    <p><strong>Logged-in Person's Name:</strong> {{ report_data['display_name'] }}</p>
+    <p><strong>Project Name:</strong> {{ report_data['project_name'] }}</p>
+    <p><strong>Status:</strong> <span class="status">{{ report_data['status'] }}</span></p>
+
+    {% if report_data['status'] == 'Fail' %}
+    <p><strong>Error:</strong> <span class="error">{{ report_data['error'] }}</span></p>
+    {% endif %}
+</body>
+</html>

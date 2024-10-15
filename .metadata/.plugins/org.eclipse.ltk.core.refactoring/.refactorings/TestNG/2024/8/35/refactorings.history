@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;TestNG/src/CTT_STG&apos;&#x0D;&#x0A;- Original project: &apos;TestNG&apos;&#x0D;&#x0A;- Destination element: &apos;TestNG/src/CTT_STG&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Product_family.java&#x0D;&#x0A;     ctt_Cut_SKUS.java&#x0D;&#x0A;     skuTbFA.java&#x0D;&#x0A;     vertical_viewfun.java" description="Copy files" destination="/src&lt;CTT_STG" element1="src/CTT_Demo1/Product_family.java" element2="src/CTT_Demo1/ctt_Cut_SKUS.java" element3="src/CTT_Demo1/skuTbFA.java" element4="src/CTT_Demo1/vertical_viewfun.java" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1725010977121" units="0" version="1.0"/>
+</session>
